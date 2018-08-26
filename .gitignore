@@ -1,0 +1,4 @@
+*.[oad]
+libevtest
+!libevtest/
+output/
