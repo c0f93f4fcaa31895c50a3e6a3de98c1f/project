@@ -2,3 +2,5 @@
 libevtest
 !libevtest/
 output/
+sklist
+!sklist/
