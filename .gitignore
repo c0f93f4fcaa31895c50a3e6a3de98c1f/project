@@ -1,6 +1,8 @@
 *.[oad]
+*.swp
 libevtest
 !libevtest/
 output/
 sklist
 !sklist/
+tags
