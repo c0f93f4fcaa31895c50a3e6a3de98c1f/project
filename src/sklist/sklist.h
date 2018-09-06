@@ -3,13 +3,17 @@
 
 #include <stdint.h>
 
+/*
+ * Skip list implementation.
+ * Warn: It is not thread safe.
+ */
+
 typedef struct SkListNode {
     uint32_t m_key;
     uint32_t m_level;
     void *m_data;
     SkListNode **m_next_nodes;
 } SkListNode;
-
 
 class SkList {
     public:

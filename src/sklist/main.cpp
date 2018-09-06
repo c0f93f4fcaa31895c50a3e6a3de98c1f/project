@@ -26,6 +26,11 @@ int main()
     sklist->Insert(10, GenData(5));
 
     sklist->Display();
+
+    sklist->Delete(8);
+
+    sklist->Display();
+
     return 0;
 }
 
